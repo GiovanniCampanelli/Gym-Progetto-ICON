@@ -1,4 +1,4 @@
-import tkinter as tk
+﻿import tkinter as tk
 from bs4 import BeautifulSoup
 from urllib.request import urlopen
 from PIL import Image, ImageTk
@@ -3314,7 +3314,7 @@ label_avambracci2 = tk.Label(app, image=Uncheck, text="CURL INVERSO BILANCIERE I
 label_avamclick1 = tk.Label(app, image=Immagine, compound="right")
 label_avamclick2 = tk.Label(app, image=Immagine, compound="right")
 labelParteSuperiore = tk.Label(app, text="Ecco il workout per il giorno dedicato alla parte superiore del corpo")
-labelParteInferiore = tk.Label(app, text="Ecco il workout per il giorno dedicato alla parte superiore del corpo")
+labelParteInferiore = tk.Label(app, text="Ecco il workout per il giorno dedicato alla parte inferiore del corpo")
 labelTuttoilcorpo = tk.Label(app, text="Ecco il workout per il giorno dedicato a tutto il corpo")
 labelTuttoilcorpo2 = tk.Label(app, text="Ecco il workout per il giorno dedicato a tutto il corpo (per due giorni)")
 labelParteSuperiore2 = tk.Label(app, text="Ecco il workout per il giorno dedicato alla parte superiore del corpo (per due giorni)")
